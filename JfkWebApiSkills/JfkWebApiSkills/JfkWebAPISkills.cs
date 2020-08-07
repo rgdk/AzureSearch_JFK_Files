@@ -24,7 +24,7 @@ namespace Microsoft.CognitiveSearch.WebApiSkills
             string skillName = executionContext.FunctionName;
             if (!req.QueryString.HasValue)
             {
-                return new BadRequestObjectResult($"{skillName} - Requires a query string in the following format: q=oswald&f=entities");
+                return new BadRequestObjectResult($"{skillName} - Requires a query string in the following format: q=gough&f=entities");
             }
 
             string searchServiceName = GetAppSetting("SearchServiceName");

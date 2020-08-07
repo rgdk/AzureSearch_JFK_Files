@@ -214,10 +214,14 @@ namespace JfkInitializer
         public static SynonymMap GetSynonymMap(string name) =>
             new SynonymMap(
                 name: name,
-                synonyms: @"GPFLOOR,oswold,ozwald,ozwold,oswald
-                            silvia, sylvia
-                            sever, SERVE, SERVR, SERVER
-                            novenko, nosenko, novenco, nosenko"
+                synonyms: @"Gough Whitlam,Edward Gough Whitlam,gough,Gough,Whitlam
+                            John Kerr, John,John R. Kerr, Sir John Kerr
+                            Malcolm,Fraser,Malcolm Fraser
+                            House, House of Representatives
+                            Her Majesty, Queen, The Queen
+                            Martin Charteris,Martin,Sir Martin Charteris
+                            NAA,National Archives of Australia
+                            Government House Canberra, Government House"
             );
 
         public static Index GetIndex(string name, string synonymMapName) => new Index()

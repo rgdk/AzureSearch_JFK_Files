@@ -21,7 +21,7 @@ export const FooterComponent = ({className = null}) => {
     <footer className={cnc(style.footer, className)}>
       <Statement />
       <a href="https://www.versor.com.au" target="__blank">
-        <img src="../../..img/versor_logo.png" />
+        <img src="../versor_logo.png" />
       </a> 
       <Links />
     </footer>

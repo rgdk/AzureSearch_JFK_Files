@@ -1,7 +1,7 @@
 {
   "name": "jfk-files",
   "version": "1.0.0",
-  "description": "Azure Search Demo based on declassified JFK Files",
+  "description": "Azure Search Demo based on declassified letters between the Governor General [John Kerr] and The Queen",
   "main": "app.js",
   "config": {
     "build": "dist",

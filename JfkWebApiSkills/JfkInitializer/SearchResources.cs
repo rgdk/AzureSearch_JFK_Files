@@ -20,7 +20,7 @@ namespace JfkInitializer
             return new Skillset()
             {
                 Name = name,
-                Description = "JFK Files Skillset",
+                Description = "Whitlam Dismissal Letters Skillset",
                 Skills = new List<Skill>()
                 {
                     new OcrSkill()

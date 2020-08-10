@@ -1,6 +1,6 @@
 import * as React from "react";
 
-import logo from "../../../assets/favicon/android-chrome-512x512.png"
+import logo from "../../../assets/favicon/android-chrome-512x512.png";
 
 
 export const LogoJFKComponent = ({ classes }) => (

@@ -46,7 +46,7 @@
 },
 "searchServiceAndCognitiveServicesLocation": {
 "type": "string",
-"defaultValue": "South Central US",
+"defaultValue": "Australia East",
 "allowedValues": [
 "East Asia",
 "Southeast Asia",
@@ -104,7 +104,7 @@
 },
 "variables": {
 "websiteName": "[concat(parameters('resourcePrefix'), '-site-', uniqueString(resourceGroup().id, deployment().name))]",
-"storageAccountName": "[concat(parameters('resourcePrefix'), 'storage', uniqueString(resourceGroup().id, deployment().name))]",
+"storageAccountName": "[concat(parameters('resourcePrefix'), 'stor', uniqueString(resourceGroup().id, deployment().name))]",
 "searchServiceName": "[concat(parameters('resourcePrefix'), '-search-service-', uniqueString(resourceGroup().id, deployment().name))]",
 "hostingPlanName": "[concat(parameters('resourcePrefix'), '-plan-', uniqueString(resourceGroup().id, deployment().name))]",
 "functionAppName": "[concat(parameters('resourcePrefix'), '-function-app-', uniqueString(resourceGroup().id, deployment().name))]",

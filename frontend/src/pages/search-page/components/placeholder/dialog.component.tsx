@@ -14,7 +14,7 @@ const Dialog: React.StatelessComponent<DialogProps> = ({ ...props }) => {
     <MuiDialog {...props} className={cnc(props.className, styles.dialog)} classes={{ paper: styles.content }}>
       <DialogTitle>
         <div className={styles.titleContainer}>
-          <Typography variant="title" classes={{ title: styles.title }}>Explore the JFK Files using Cognitive Search</Typography>
+          <Typography variant="title" classes={{ title: styles.title }}>Explore the Whitlam Dismissal Letters using Cognitive Search</Typography>
           <IconButton onClick={props.onClose}>
             <CloseIcon />
           </IconButton>
@@ -23,7 +23,7 @@ const Dialog: React.StatelessComponent<DialogProps> = ({ ...props }) => {
       <DialogContent>
         <DialogContentText>
           <span className={styles.block}>
-            In this JFK Files scenario demo, you will explore how you can use both built-in and custom Cognitive Skills inside of Azure Search to explore the documents released from the John F. Kennedy Assassination Records Collection. 
+            In this Whitlam Dismissal Letters scenario demo, you will explore how you can use both built-in and custom Cognitive Skills inside of Azure Search to explore the letters released from the Whitlam Dismissal Letters collection. 
             The Cognitive Search capabilities of Azure Search ingest your data from almost any datasource and enriches it using a set of cognitive skills that extracts knowledge and then lets you explore the data using Search.
           </span>
           <span className={styles.block}>
@@ -34,8 +34,8 @@ const Dialog: React.StatelessComponent<DialogProps> = ({ ...props }) => {
             <span>You can find the source code : </span>
             <LinkComponent to="//aka.ms/jfk-files-code">here</LinkComponent>
           </span>
-          <span className={styles.block}>Below is the architecture used for JFK files Cognitive Search demo:</span>
-          <img src={jfkFilesScenario} alt="JFK scenario" className={styles.img} />
+          <span className={styles.block}>Below is the architecture used for Whitlam Dismissal Letters Cognitive Search demo:</span>
+          <img src={jfkFilesScenario} alt="Whitlam Dismissal scenario" className={styles.img} />
         </DialogContentText>
       </DialogContent>
     </MuiDialog>

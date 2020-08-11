@@ -52,7 +52,7 @@ const SearchButton = ({ onClick }) => (
 
 const ResultCounter = ({ count }) => (
   <Typography variant="subheading"
-    color={count ? "primary" : "secondary"}
+    color={count ? "secondary" : "secondary"}
   >
     {`${count} results found`}
   </Typography>

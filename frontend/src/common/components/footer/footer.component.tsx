@@ -6,7 +6,7 @@ const style = require("./footer.style.scss");
 
 const Links = () => (
   <div className={style.linkArea}>
-    <a className={style.link} href="https://www.versor.com.au/web_images/Versor%20-%202017%20-%20Terms%20of%20Business.pdf" target="__blank">Terms & Conditions</a>   
+    <div></div>
   </div>
 );
 
